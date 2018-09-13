@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  GrabGamers
 //
-//  Created by 渋谷浩史 on 2018/09/13.
+//  Created by grabgamers on 2018/09/13.
 //  Copyright © 2018年 ding. All rights reserved.
 //
 
