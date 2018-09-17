@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60173EFA214B9B2B00E81D3F /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60173EF9214B9B2B00E81D3F /* CustomButton.swift */; };
+		603B1E0C214CFDAD00C66D42 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603B1E0B214CFDAD00C66D42 /* CustomTextField.swift */; };
 		603C97DC214A1FC5002BFB90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603C97DB214A1FC5002BFB90 /* AppDelegate.swift */; };
 		603C97DE214A1FC5002BFB90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603C97DD214A1FC5002BFB90 /* ViewController.swift */; };
-		603C97E1214A1FC5002BFB90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603C97DF214A1FC5002BFB90 /* Main.storyboard */; };
 		603C97E3214A1FCA002BFB90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 603C97E2214A1FCA002BFB90 /* Assets.xcassets */; };
 		603C97E6214A1FCA002BFB90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603C97E4214A1FCA002BFB90 /* LaunchScreen.storyboard */; };
+		6098F6CD214FC9CF004F755A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6098F6CC214FC9CF004F755A /* Main.storyboard */; };
+		C5E4A5A8B882BC899ECC6D39 /* Pods_GrabGamers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 193C8F9D013AFE6B5C12C623 /* Pods_GrabGamers.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		193C8F9D013AFE6B5C12C623 /* Pods_GrabGamers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrabGamers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60173EF9214B9B2B00E81D3F /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		603B1E0B214CFDAD00C66D42 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		603C97D8214A1FC5002BFB90 /* GrabGamers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrabGamers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		603C97DB214A1FC5002BFB90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		603C97DD214A1FC5002BFB90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		603C97E0214A1FC5002BFB90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		603C97E2214A1FCA002BFB90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		603C97E5214A1FCA002BFB90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		603C97E7214A1FCA002BFB90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6098F6CC214FC9CF004F755A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6934459BEBC7C10F5F4D05D9 /* Pods-GrabGamers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrabGamers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrabGamers/Pods-GrabGamers.debug.xcconfig"; sourceTree = "<group>"; };
+		E68CD3F216AB3CF4B1684D86 /* Pods-GrabGamers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrabGamers.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrabGamers/Pods-GrabGamers.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5E4A5A8B882BC899ECC6D39 /* Pods_GrabGamers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D361F0193DBEFD1CF8B647B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				193C8F9D013AFE6B5C12C623 /* Pods_GrabGamers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		603C97CF214A1FC5002BFB90 = {
 			isa = PBXGroup;
 			children = (
 				603C97DA214A1FC5002BFB90 /* GrabGamers */,
 				603C97D9214A1FC5002BFB90 /* Products */,
+				FD8BB70A870A987955117F61 /* Pods */,
+				5D361F0193DBEFD1CF8B647B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +75,23 @@
 			children = (
 				603C97DB214A1FC5002BFB90 /* AppDelegate.swift */,
 				603C97DD214A1FC5002BFB90 /* ViewController.swift */,
-				603C97DF214A1FC5002BFB90 /* Main.storyboard */,
 				603C97E2214A1FCA002BFB90 /* Assets.xcassets */,
+				60173EF9214B9B2B00E81D3F /* CustomButton.swift */,
+				603B1E0B214CFDAD00C66D42 /* CustomTextField.swift */,
+				6098F6CC214FC9CF004F755A /* Main.storyboard */,
 				603C97E4214A1FCA002BFB90 /* LaunchScreen.storyboard */,
 				603C97E7214A1FCA002BFB90 /* Info.plist */,
 			);
 			path = GrabGamers;
+			sourceTree = "<group>";
+		};
+		FD8BB70A870A987955117F61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6934459BEBC7C10F5F4D05D9 /* Pods-GrabGamers.debug.xcconfig */,
+				E68CD3F216AB3CF4B1684D86 /* Pods-GrabGamers.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 603C97EA214A1FCA002BFB90 /* Build configuration list for PBXNativeTarget "GrabGamers" */;
 			buildPhases = (
+				E5452422563105A796E2B10F /* [CP] Check Pods Manifest.lock */,
 				603C97D4214A1FC5002BFB90 /* Sources */,
 				603C97D5214A1FC5002BFB90 /* Frameworks */,
 				603C97D6214A1FC5002BFB90 /* Resources */,
+				37F9CF454A119C8F51BC09BC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,35 +154,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6098F6CD214FC9CF004F755A /* Main.storyboard in Resources */,
 				603C97E6214A1FCA002BFB90 /* LaunchScreen.storyboard in Resources */,
 				603C97E3214A1FCA002BFB90 /* Assets.xcassets in Resources */,
-				603C97E1214A1FC5002BFB90 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37F9CF454A119C8F51BC09BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GrabGamers/Pods-GrabGamers-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FlatUIKit/FlatUIKit.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlatUIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrabGamers/Pods-GrabGamers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5452422563105A796E2B10F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrabGamers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		603C97D4214A1FC5002BFB90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				603B1E0C214CFDAD00C66D42 /* CustomTextField.swift in Sources */,
 				603C97DE214A1FC5002BFB90 /* ViewController.swift in Sources */,
 				603C97DC214A1FC5002BFB90 /* AppDelegate.swift in Sources */,
+				60173EFA214B9B2B00E81D3F /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		603C97DF214A1FC5002BFB90 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				603C97E0214A1FC5002BFB90 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		603C97E4214A1FCA002BFB90 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -278,9 +345,12 @@
 		};
 		603C97EB214A1FCA002BFB90 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6934459BEBC7C10F5F4D05D9 /* Pods-GrabGamers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HH9N6N834H;
 				INFOPLIST_FILE = GrabGamers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -288,6 +358,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ding.GrabGamers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -295,9 +366,12 @@
 		};
 		603C97EC214A1FCA002BFB90 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E68CD3F216AB3CF4B1684D86 /* Pods-GrabGamers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HH9N6N834H;
 				INFOPLIST_FILE = GrabGamers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +379,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ding.GrabGamers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

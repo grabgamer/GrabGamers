@@ -1,0 +1,6 @@
+framework module Pods_GrabGamers {
+  umbrella header "Pods-GrabGamers-umbrella.h"
+
+  export *
+  module * { export * }
+}

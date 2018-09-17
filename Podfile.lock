@@ -1,0 +1,20 @@
+PODS:
+  - FlatUIKit (1.6.2)
+  - TextFieldEffects (1.4.0)
+
+DEPENDENCIES:
+  - FlatUIKit
+  - TextFieldEffects
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FlatUIKit
+    - TextFieldEffects
+
+SPEC CHECKSUMS:
+  FlatUIKit: 1b41f0d4952ce8d970d8479ce79df54a960242c4
+  TextFieldEffects: 4ee41b5216e674d55fb6ac25107bf1af7629176f
+
+PODFILE CHECKSUM: 945bbaddf2640d9d5e1357f06322f6ba77bb7b93
+
+COCOAPODS: 1.5.3
